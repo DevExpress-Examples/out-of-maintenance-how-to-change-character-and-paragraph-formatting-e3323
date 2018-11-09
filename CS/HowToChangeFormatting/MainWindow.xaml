@@ -1,4 +1,4 @@
-﻿<Window x:Class="HowToChangeFormatting.MainWindow"
+<Window x:Class="HowToChangeFormatting.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="537" Width="829" xmlns:dxre="http://schemas.devexpress.com/winfx/2008/xaml/richedit">

@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MainWindow.xaml](./CS/HowToChangeFormatting/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/HowToChangeFormatting/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/HowToChangeFormatting/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/HowToChangeFormatting/MainWindow.xaml))
+<!-- default file list end -->
 # How to change character and paragraph formatting
 
 

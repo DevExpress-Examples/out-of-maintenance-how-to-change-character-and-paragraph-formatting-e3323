@@ -1,7 +1,7 @@
 <Window x:Class="HowToChangeFormatting.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="476" Width="525" xmlns:dxre="http://schemas.devexpress.com/winfx/2008/xaml/richedit">
+        Title="MainWindow" Height="537" Width="829" xmlns:dxre="http://schemas.devexpress.com/winfx/2008/xaml/richedit">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto" />

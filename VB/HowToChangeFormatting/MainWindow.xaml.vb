@@ -1,5 +1,4 @@
-Imports Microsoft.VisualBasic
-#Region "#usings"
+﻿#Region "#usings"
 Imports System.Windows
 Imports System.Drawing
 Imports DevExpress.XtraRichEdit
@@ -10,6 +9,7 @@ Imports DevExpress.XtraRichEdit.API.Native
 Namespace HowToChangeFormatting
 	Partial Public Class MainWindow
 		Inherits Window
+
 		Public Sub New()
 			InitializeComponent()
 
@@ -43,12 +43,13 @@ Namespace HowToChangeFormatting
 			pp.LineSpacingMultiplier = 3
 			' Set left indent at 0.5".
 			' Default unit is 1/300 of an inch (a document unit).
-			pp.LeftIndent = Units.InchesToDocumentsF(0.5f)
+
+			pp.LeftIndent = Units.InchesToDocumentsF(0.5F)
 			' Set tab stop at 1.5"
 			Dim tbiColl As TabInfoCollection = pp.BeginUpdateTabs(True)
-            Dim tbi As New DevExpress.XtraRichEdit.API.Native.TabInfo()
+			Dim tbi As New TabInfo()
 			tbi.Alignment = TabAlignmentType.Center
-			tbi.Position = Units.InchesToDocumentsF(1.5f)
+			tbi.Position = Units.InchesToDocumentsF(1.5F)
 			tbiColl.Add(tbi)
 			pp.EndUpdateTabs(tbiColl)
 			doc.EndUpdateParagraphs(pp)

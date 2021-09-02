@@ -1,5 +1,5 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HowToChangeFormatting", "HowToChangeFormatting\HowToChangeFormatting.csproj", "{0FDA8D11-EED9-4674-BC55-A4C629909950}"
 EndProject
 Global

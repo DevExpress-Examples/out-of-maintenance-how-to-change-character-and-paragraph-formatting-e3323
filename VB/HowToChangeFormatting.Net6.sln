@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "HowToChangeFormatting.Net6", "HowToChangeFormatting\HowToChangeFormatting.Net6.vbproj", "{0FDA8D11-EED9-4674-BC55-A4C629909950}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FDA8D11-EED9-4674-BC55-A4C629909950}.Debug|x86.ActiveCfg = Debug|x86
+		{0FDA8D11-EED9-4674-BC55-A4C629909950}.Debug|x86.Build.0 = Debug|x86
+		{0FDA8D11-EED9-4674-BC55-A4C629909950}.Release|x86.ActiveCfg = Release|x86
+		{0FDA8D11-EED9-4674-BC55-A4C629909950}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E34EF973-C849-43D6-A56E-83FB9495FFF8}
+	EndGlobalSection
+EndGlobal
